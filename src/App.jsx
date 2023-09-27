@@ -57,7 +57,7 @@ function App() {
                     setSearch(e.target.value);
                   }}
                   type="text"
-                  placeholder="Enter Search Query"
+                  placeholder="Enter Search Images"
                   className="input input-bordered w-24 md:w-auto"
                 />
                 <button className="btn btn-primary" onClick={getUnsplashPhotos }>
